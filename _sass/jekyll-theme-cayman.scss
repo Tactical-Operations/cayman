@@ -397,6 +397,22 @@ a {
   }
 }
 
+.tacops-table {
+  table {
+    border: 2px solid $table-border-color;
+  }
+  thead tr {
+    border: 2px solid $table-border-color;
+    background-color: $tacops-table-grey-color;
+  }
+  thead th {
+    border: 1px solid $table-border-color;
+  }
+  tbody td {
+    border: 1px solid $table-border-color;
+  }
+}
+
 .airforce-table {
   table {
     border: 2px solid $table-border-color;
