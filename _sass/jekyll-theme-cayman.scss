@@ -319,7 +319,7 @@ a {
     width: 100%;
     overflow: auto;
     word-break: normal;
-    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+    // word-break: keep-all; // For Firefox to horizontally scroll wider tables.
     -webkit-overflow-scrolling: touch;
 
     th {
@@ -331,6 +331,7 @@ a {
       padding: 0.5rem 1rem;
       border: 1px solid $table-border-color;
     }
+
   }
 
   dl {
@@ -374,6 +375,194 @@ a {
   }
   tbody td {
     border: 1px solid $table-border-color;
+  }
+}
+
+.table-blue-white {
+  table {
+    border: 2px solid $table-border-color;
+  }
+  thead tr {
+    border: 2px solid $table-border-color;
+    background-color: $table-blue-th-background-color;
+  }
+  thead th {
+    border: 1px solid $table-border-color;
+  }
+  tbody tr:nth-child(even) {
+    background-color: $table-blue-td-background-color;
+  }
+  tbody td {
+    border: 1px solid $table-border-color;
+  }
+}
+
+.logistic-table {
+  table {
+    border: 2px solid $table-border-color;
+  }
+  thead tr {
+    border: 2px solid $table-border-color;
+    background-color: $logistic-table-header-color;
+  }
+  thead th {
+    border: 1px solid $table-border-color;
+  }
+  tbody td {
+    border: 1px solid $table-border-color;
+  }
+}
+
+.logistic-table-2 {
+  table tbody td:first-child {
+    width: 45%;
+  }
+}
+
+.logistic-table-3 {
+  table tbody td:first-child {
+    width: 5%;
+  }
+  table tbody td:nth-child(2) {
+    width: 45%;
+  }
+}
+
+.logistic-table-4 {
+  table tbody td:first-child {
+    width: 5%;
+  }
+  table tbody td:nth-child(2) {
+    width: 45%;
+  }
+  table tbody td:nth-child(3) {
+    width: 15%;
+  }
+}
+
+.logistic-table-order-catalog {
+  tbody tr:nth-child(1) {
+    background-color: $logistic-table-infantry-color
+  }
+  tbody tr:nth-child(2) {
+    background-color: $logistic-table-medic-color;
+  }
+  tbody tr:nth-child(3) {
+    background-color: $logistic-table-medic-only-color;
+  }
+  tbody tr:nth-child(4) {
+    background-color: $logistic-table-logistic-only-color;
+  }
+  tbody tr:nth-child(5) {
+    background-color: $logistic-table-vehicle-color;
+  }
+  tbody tr:nth-child(6) {
+    background-color: $logistic-table-lead-color;
+  }
+  tbody tr:nth-child(7) {
+    background-color: $logistic-table-air-color;
+  }
+}
+
+.logistic-table-supply-units {
+  tbody tr:nth-child(1) {
+    background-color: $logistic-table-infantry-color
+  }
+  tbody tr {
+    background-color: $logistic-table-vehicle-color;
+  }
+}
+
+.logistic-table-infantry-supply {
+  tbody tr:nth-child(5) {
+    background-color: $logistic-table-logistic-only-color;
+  }
+  tbody tr:nth-child(7) {
+    background-color: $logistic-table-lead-color;
+  }
+  tbody tr:nth-child(9) {
+    background-color: $logistic-table-medic-color;
+  }
+  tbody tr:nth-child(10) {
+    background-color: $logistic-table-logistic-only-color;
+  }
+  tbody tr:nth-child(11) {
+    background-color: $logistic-table-air-color;
+  }
+  tbody tr:nth-child(12) {
+    background-color: $logistic-table-medic-only-color;
+  }
+  tbody tr:nth-child(12) {
+    background-color: $logistic-table-medic-only-color;
+  }
+  tbody tr:nth-child(13) {
+    background-color: $logistic-table-medic-only-color;
+  }
+  tbody tr:nth-child(14) {
+    background-color: $logistic-table-medic-only-color;
+  }
+  tbody tr:nth-child(15) {
+    background-color: $logistic-table-medic-only-color;
+  }
+  tbody tr:nth-child(16) {
+    background-color: $logistic-table-medic-only-color;
+  }
+  tbody tr {
+    background-color: $logistic-table-infantry-color
+  }
+}
+
+.logistic-table-vehicle-supply {
+  tbody tr {
+    background-color: $logistic-table-vehicle-color
+  }
+}
+
+.logistic-table-artillery-supply {
+  tbody tr {
+    background-color: $logistic-table-infantry-color
+  }
+}
+
+.logistic-table-artillery-supply {
+  tbody tr {
+    background-color: $logistic-table-infantry-color
+  }
+}
+
+.logistic-table-land-vehicle {
+  tbody tr {
+    background-color: $logistic-table-infantry-color
+  }
+}
+
+.logistic-table-air-vehicle {
+  tbody tr {
+    background-color: $logistic-table-air-color
+  }
+}
+
+.logistic-table-sea-vehicle {
+  tbody tr {
+    background-color: $logistic-table-grey-color
+  }
+}
+
+.logistic-table-construction {
+  tbody tr {
+    background-color: $logistic-table-logistic-only-color
+  }
+}
+
+.logistic-table-air-vehicle-maintenance {
+  tbody tr {
+    background-color: $logistic-table-logistic-only-color
+  }
+}
+
+.logistic-table-others {
+  tbody tr {
+    background-color: $logistic-table-air-color;
   }
 }
 
