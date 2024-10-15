@@ -397,6 +397,33 @@ a {
   }
 }
 
+.airforce-table {
+  table {
+    border: 2px solid $table-border-color;
+  }
+  thead tr {
+    border: 2px solid $table-border-color;
+    background-color: $airforce-table-header-color;
+  }
+  thead th {
+    border: 1px solid $table-border-color;
+  }
+  tbody td {
+    border: 1px solid $table-border-color;
+  }
+}
+
+.airforce-5-liner {
+  tbody tr:nth-child(-n+5) {
+    background-color:
+  }
+}
+
+.airforce-9-liner {
+  tr td:nth-child(1) {  background-color: #9fc5e8; }
+  tr td:nth-child(2) {  background-color: #9fc5e8; }
+}
+
 .logistic-table {
   table {
     border: 2px solid $table-border-color;
