@@ -415,13 +415,17 @@ a {
 
 .airforce-5-liner {
   tbody tr:nth-child(-n+5) {
-    background-color:
+    background-color: $airforce-table-blue-color;
   }
 }
 
 .airforce-9-liner {
-  tr td:nth-child(1) {  background-color: #9fc5e8; }
-  tr td:nth-child(2) {  background-color: #9fc5e8; }
+  tr td:nth-child(1) {
+    background-color: $airforce-table-blue-color;
+  }
+  tr td:nth-child(2) {
+    background-color: $airforce-table-blue-color;
+  }
 }
 
 .logistic-table {
@@ -448,7 +452,7 @@ a {
 
 .logistic-table-3 {
   table tbody td:first-child {
-    width: 5%;
+    width: 10%;
   }
   table tbody td:nth-child(2) {
     width: 45%;
@@ -541,49 +545,49 @@ a {
 
 .logistic-table-vehicle-supply {
   tbody tr {
-    background-color: $logistic-table-vehicle-color
+    background-color: $logistic-table-vehicle-color;
   }
 }
 
 .logistic-table-artillery-supply {
   tbody tr {
-    background-color: $logistic-table-infantry-color
+    background-color: $logistic-table-infantry-color;
   }
 }
 
 .logistic-table-artillery-supply {
   tbody tr {
-    background-color: $logistic-table-infantry-color
+    background-color: $logistic-table-infantry-color;
   }
 }
 
 .logistic-table-land-vehicle {
   tbody tr {
-    background-color: $logistic-table-infantry-color
+    background-color: $logistic-table-infantry-color;
   }
 }
 
 .logistic-table-air-vehicle {
   tbody tr {
-    background-color: $logistic-table-air-color
+    background-color: $logistic-table-air-color;
   }
 }
 
 .logistic-table-sea-vehicle {
   tbody tr {
-    background-color: $logistic-table-grey-color
+    background-color: $logistic-table-grey-color;
   }
 }
 
 .logistic-table-construction {
   tbody tr {
-    background-color: $logistic-table-logistic-only-color
+    background-color: $logistic-table-logistic-only-color;
   }
 }
 
 .logistic-table-air-vehicle-maintenance {
   tbody tr {
-    background-color: $logistic-table-logistic-only-color
+    background-color: $logistic-table-logistic-only-color;
   }
 }
 
