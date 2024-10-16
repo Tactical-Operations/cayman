@@ -413,6 +413,148 @@ a {
   }
 }
 
+.medic-table {
+  table {
+    border: 2px solid $table-border-color;
+  }
+  thead tr {
+    border: 2px solid $table-border-color;
+    background-color: $tacops-table-grey-color;
+  }
+  thead th {
+    border: 1px solid $table-border-color;
+  }
+  tbody td {
+    border: 1px solid $table-border-color;
+  }
+}
+
+.medic-xabcde-schema-table {
+  tbody tr:nth-child(1) {
+    background-color: $tacops-table-red-color;
+  }
+  tbody tr:nth-child(2) {
+    background-color: $tacops-table-red-color;
+  }
+  tbody tr:nth-child(3) {
+    background-color: $tacops-table-red-color;
+  }
+
+  tbody tr:nth-child(4) {
+    background-color: $tacops-table-blue-color;
+  }
+  tbody tr:nth-child(5) {
+    background-color: $tacops-table-blue-color;
+  }
+  tbody tr:nth-child(6) {
+    background-color: $tacops-table-blue-color;
+  }
+
+  tbody tr:nth-child(7) {
+    background-color: $tacops-table-lila-blue-color;
+  }
+  tbody tr:nth-child(8) {
+    background-color: $tacops-table-lila-blue-color;
+  }
+  tbody tr:nth-child(9) {
+    background-color: $tacops-table-lila-blue-color;
+  }
+
+  tbody tr:nth-child(10) {
+    background-color: $tacops-table-orange-color;
+  }
+  tbody tr:nth-child(11) {
+    background-color: $tacops-table-orange-color;
+  }
+  tbody tr:nth-child(12) {
+    background-color: $tacops-table-orange-color;
+  }
+
+  tbody tr:nth-child(13) {
+    background-color: $tacops-table-pink-color;
+  }
+  tbody tr:nth-child(14) {
+    background-color: $tacops-table-pink-color;
+  }
+  tbody tr:nth-child(15) {
+    background-color: $tacops-table-pink-color;
+  }
+
+  tbody tr:nth-child(16) {
+    background-color: $tacops-table-green-color;
+  }
+  tbody tr:nth-child(17) {
+    background-color: $tacops-table-green-color;
+  }
+  tbody tr:nth-child(18) {
+    background-color: $tacops-table-green-color;
+  }
+
+}
+
+.medic-new-with-kat {
+  background-color: $tacops-table-orange-color;
+}
+
+.medic-squad-medic .medic-platoon-medic {
+  background-color: $tacops-table-green-color;
+  li {
+    background-color: $tacops-table-green-color;
+  }
+}
+
+.medic-platoon-medic:not(.medic-squad-medic) {
+  p strong {
+    background-color: $tacops-table-pink-color;
+  }
+  li {
+    background-color: $tacops-table-pink-color;
+  }
+}
+
+.medic-squad-medic:not(.medic-platoon-medic) {
+  p strong {
+    background-color: $tacops-table-blue-color;
+  }
+  li {
+    background-color: $tacops-table-blue-color;
+  }
+}
+
+.medic-squad-medic-drugs {
+  background-color: $tacops-table-green-color;
+}
+
+.medic-platoon-medic-drugs:not(.medic-squad-medic-drugs) {
+  background-color: $tacops-table-pink-color;
+}
+
+.medic-squad-medic-drugs:not(.medic-platoon-medic-drugs) {
+  background-color: $tacops-table-blue-color;
+}
+
+.medic-description-drugs {
+  li:nth-child(1) {
+    background-color: $tacops-table-blue-color;
+  }
+  li:nth-child(2) {
+    background-color: $tacops-table-pink-color;
+  }
+  li:nth-child(3) {
+    background-color: $tacops-table-green-color;
+  }
+}
+
+.medic-stable-ideal-values {
+  li:nth-child(1) {
+    background-color: $tacops-table-light-blue-color;
+  }
+  li:nth-child(2) {
+    background-color: $tacops-table-light-green-color;
+  }
+}
+
+
 .airforce-table {
   table {
     border: 2px solid $table-border-color;
