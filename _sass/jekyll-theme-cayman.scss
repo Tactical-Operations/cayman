@@ -523,14 +523,23 @@ a {
 
 .medic-squad-medic-drugs {
   background-color: $tacops-table-green-color;
+  blockquote {
+    color: $body-text-color;
+  }
 }
 
 .medic-platoon-medic-drugs:not(.medic-squad-medic-drugs) {
   background-color: $tacops-table-pink-color;
+  blockquote {
+    color: $body-text-color;
+  }
 }
 
 .medic-squad-medic-drugs:not(.medic-platoon-medic-drugs) {
   background-color: $tacops-table-blue-color;
+  blockquote {
+    color: $body-text-color;
+  }
 }
 
 .medic-description-drugs {
