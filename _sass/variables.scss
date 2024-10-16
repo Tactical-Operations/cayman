@@ -25,17 +25,24 @@ $table-purple-th-background-color: #d5a6bd !default;
 $table-purple-td-background-color: #ead1dc !default;
 
 $tacops-table-grey-color: #cccccc !default;
+$tacops-table-red-color: #ea9999 !default;
+$tacops-table-light-blue-color: #add7ff !default;
 $tacops-table-blue-color: #9fc5e8 !default;
+$tacops-table-lila-blue-color:  #b4a7d6 !default;
+$tacops-table-orange-color: #f9cb9c !default;
+$tacops-table-pink-color: #f4cccc !default;
+$tacops-table-green-color: #b6d7a8 !default;
+$tacops-table-light-green-color: #daffca !default;
+
 
 $logistic-table-grey-color: $tacops-table-grey-color;
-$logistic-table-green-color: #b6d7a8 !default;
-$logistic-table-pink-color: #f4cccc !default;
-$logistic-table-red-color: #ea9999 !default;
+$logistic-table-green-color: $tacops-table-green-color;
+$logistic-table-pink-color: $tacops-table-pink-color;
+$logistic-table-red-color: $tacops-table-red-color;
 $logistic-table-blue-color: $tacops-table-blue-color;
 $logistic-table-yellow-color:  #ffe599 !default;
-$logistic-table-orange-color:  #f9cb9c !default;
-$logistic-table-lila-blue-color:  #b4a7d6 !default;
-$logistic-table-blue-color:  #9fc5e8 !default;
+$logistic-table-orange-color:  $tacops-table-orange-color;
+$logistic-table-lila-blue-color:  $tacops-table-lila-blue-color;
 
 $logistic-table-header-color: $logistic-table-grey-color;
 $logistic-table-infantry-color: $logistic-table-green-color;
