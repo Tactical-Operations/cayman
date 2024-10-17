@@ -163,6 +163,7 @@ a {
 }
 
 .main-content {
+  print-color-adjust: exact; 
   word-wrap: break-word;
 
   @include large {
@@ -415,17 +416,17 @@ a {
 
 .medic-table {
   table {
-    border: 2px solid $table-border-color;
+    border: 2px solid #333;
   }
   thead tr {
-    border: 2px solid $table-border-color;
-    background-color: $tacops-table-grey-color;
+    border: 2px solid #333;
+    background-color: #cccccc;
   }
   thead th {
-    border: 1px solid $table-border-color;
+    border: 1px solid #333;
   }
   tbody td {
-    border: 1px solid $table-border-color;
+    border: 1px solid #333;
   }
 }
 
@@ -580,13 +581,42 @@ a {
   }
 }
 
-.airforce-5-liner {
-  tbody tr:nth-child(-n+5) {
+.airforce-lz-4-liner {
+  table tbody td {
+    width: 25%;
+  }
+  tbody tr {
     background-color: $airforce-table-blue-color;
   }
 }
 
+.airforce-gameplan {
+  table tbody td:nth-child(odd) {
+    width: 10%;
+  }
+  tbody tr {
+    background-color: $airforce-table-blue-color;
+  }
+}
+
+.airforce-5-liner {
+  table tbody td:nth-child(odd) {
+    width: 10%;
+  }
+  table tbody td:nth-child(even) {
+    width: 40%;
+  }
+  tbody tr:nth-child(-n+5) {
+    background-color: $airforce-table-blue-color;
+  }
+}
 .airforce-9-liner {
+  table tbody td:nth-child(odd) {
+    width: 10%;
+  }
+  table tbody td:nth-child(even) {
+    width: 40%;
+  }
   tr td:nth-child(1) {
     background-color: $airforce-table-blue-color;
   }
@@ -594,6 +624,38 @@ a {
     background-color: $airforce-table-blue-color;
   }
 }
+
+.airforce-bah {
+  table tbody td:nth-child(odd) {
+    width: 10%;
+  }
+  tbody tr {
+    background-color: $airforce-table-blue-color;
+  }
+}
+
+.airforce-mission-3-liner {
+  table tbody td {
+    width: 33%;
+  }
+  tbody tr {
+    background-color: $airforce-table-blue-color;
+  }
+}
+
+.airforce-important-frequences {
+  table tbody td:nth-child(odd) {
+    width: 20%;
+  }
+  table tbody td:nth-child(even) {
+    width: 25%;
+  }
+  tbody tr {
+    background-color: $airforce-table-blue-color;
+  }
+}
+
+
 
 .logistic-table {
   table {
