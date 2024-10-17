@@ -4,6 +4,8 @@ layout: default
 
 ## Welcome to schedule page
 
+<div style="page-break-after: always;"></div>
+
 ## XABCDE Schema für Behandlungen von Verletzten
 
 Vorgehen für Alle Spieler, Squad Medics/Platoon Medics, von oben nach unten:
@@ -39,6 +41,8 @@ Vorgehen für Alle Spieler, Squad Medics/Platoon Medics, von oben nach unten:
 3. **Medikamente** gegeben: Ja/Nein  
 4. Wie **lange** liegt er?  
 5. Fragen ob **weitere Hilfe** (z.B. HLW) notwendig
+
+<div style="page-break-after: always;"></div>
 
 ## Wichtigsten Infos für Platoon Medics und Squad Medics 
 
@@ -104,10 +108,39 @@ Werte:
 
 </div>
 
+<!-- <div style="page-break-after: always;"></div> -->
+
+
+### Wichtige Infos
+
+#### LZ 4-Liner:
+
+<div markdown="1" class="airforce-table airforce-lz-4-liner">
+
+| LZ Name | Feindlage  | Ingress/Egress  | Markierung  |
+| :-----: | :--------: | :-------------: | :---------: |
+| - | (grün, gelb, rot) | (optional) | (optional) |
+
+</div>
+
+#### CAS
+
+<div markdown="1" class="airforce-table airforce-gameplan">
+
+|  | Gameplan |
+| :-----: | :---: |
+| 1\. | Einsatz Typ |
+| 2\. | BOT/BOC |
+| 3\. | Waffenanforderung |
+
+</div>
+
+#### 9/5-Liner
+
 <div markdown="1" class="airforce-table airforce-9-liner airforce-5-liner">
 
 |  | 9-Liner |  | 5-Liner |
-| :-----: | :---: | :-----: | :-----: |
+| :-: | :---: | :-----: | :-----: |
 | 1\. | Ingress | 1\. | Ziel Position |
 | 2\. | Richtung | 2\. | Ziel Beschreibung |
 | 3\. | Distanz zum Ziel IP | 3\. | Ziel Markierung |
@@ -118,6 +151,68 @@ Werte:
 | 8\. | Eigene Kräfte (Markierung) |  |  |
 | 9\. | Egress |  |  |
 |  | Hinweise |  |  |
+
+</div>
+
+#### BAH
+
+<div markdown="1" class="airforce-table airforce-bah">
+
+| | BHA \- Ergebnis des Waffeneinsatzes  |
+| :-: | :---: |
+| 1\. | Effekt |
+| 2\. | BDA |
+| 3\. | Re-run |
+
+</div>
+
+#### Mission 3-Liner (nur für Piloten)
+
+<div markdown="1" class="airforce-table airforce-mission-3-liner">
+
+| Mission Typ | Ort (AO) | Zu kontaktierende Einheit |
+| :----: | :----: | :----: |
+| A-Recon/ CAS/ MedEvac | z.B. POI001 | z.B. Green Ant auf 68 |
+
+</div>
+
+#### Brevity Terms:  
+**AO**: Area of Operation  
+**MSR**: Main Supply Route  
+**BOT**: Bomb on Target (Bekämpfen von Ziel→Benötigt Sicht auf das Ziel(Tally), für Freigabe.)  
+**BOC**: Bomb on Coordinate (Bekämpfen von Koordinate→ohne Sicht auf Ziel.)  
+**BDA**: Battle Damage Assesment  
+**BHA**: Battle Hit Assesment  
+**Cleard Hot**: Waffenfreigabe für Anflug erteilt.  
+**Cleard to Engage**: Waffenfreigabe für mehrere Anflüge  
+**Tally**: Sicht auf Ziel (No Joy: keine Sicht auf Ziel)  
+**Bingo**: Treibstoff reicht nur für Rückflug.  
+**Winchester**: Keine Munition (Winchester Guns: Keine Munition für Gun.)
+
+#### Smoke:
+**Grün**: Freund Markierung  
+**Gelb**: JTAC Reserviert  
+**Rot**: Feind Markierung  
+**Blau**: LZ Markierung  
+**Orange**: JTAC Reserviert  
+**Violet**: Medevac  
+**Weiß**: Verschleierung
+
+#### Flares:  
+**Weiß**: Beleuchtung  
+**Grün**: Freund Markierung  
+**Rot**: Feind Markierung
+
+#### Wichtige Frequenzen
+
+<div markdown="1" class="airforce-table airforce-important-frequences">
+
+| Piloten |  | JTAC |  |
+| :-----: | :----: | :-----: | :----: |
+| Luftraum (Tower) | 80 Hz (Lasercode 1115\) | TACP-com | 84 Hz |
+| Red Titan | 38 Hz (Lasercode 1113\) |  |  |
+| Blue King | 58 Hz (Lasercode 1114\) |  |  |
+
 
 </div>
 
