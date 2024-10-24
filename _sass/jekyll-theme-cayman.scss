@@ -21,6 +21,12 @@
   }
 }
 
+@media print {
+  body {
+      background: none !important;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -655,7 +661,27 @@ a {
   }
 }
 
+:root {
 
+  --tacops-table-grey-color: #cccccc;
+  --tacops-table-red-color: #ea9999;
+  --tacops-table-yellow-color:  #ffe599;
+  --tacops-table-light-blue-color: #add7ff;
+  --tacops-table-blue-color: #9fc5e8;
+  --tacops-table-lila-blue-color:  #b4a7d6;
+  --tacops-table-orange-color: #f9cb9c;
+  --tacops-table-pink-color: #f4cccc;
+  --tacops-table-green-color: #b6d7a8;
+  --tacops-table-light-green-color: #daffca;
+
+  --logistic-table-infantry-color: var(--tacops-table-green-color);
+  --logistic-table-medic-color: var(--tacops-table-pink-color);
+  --logistic-table-medic-only-color: var(--tacops-table-red-color);
+  --logistic-table-logistic-only-color: var(--tacops-table-yellow-color);
+  --logistic-table-vehicle-color: var(--tacops-table-orange-color);
+  --logistic-table-lead-color: var(--tacops-table-lila-blue-color);
+  --logistic-table-air-color: var(--tacops-table-blue-color);
+}
 
 .logistic-table {
   table {
@@ -697,132 +723,6 @@ a {
   }
   table tbody td:nth-child(3) {
     width: 15%;
-  }
-}
-
-.logistic-table-order-catalog {
-  tbody tr:nth-child(1) {
-    background-color: $logistic-table-infantry-color
-  }
-  tbody tr:nth-child(2) {
-    background-color: $logistic-table-medic-color;
-  }
-  tbody tr:nth-child(3) {
-    background-color: $logistic-table-medic-only-color;
-  }
-  tbody tr:nth-child(4) {
-    background-color: $logistic-table-logistic-only-color;
-  }
-  tbody tr:nth-child(5) {
-    background-color: $logistic-table-vehicle-color;
-  }
-  tbody tr:nth-child(6) {
-    background-color: $logistic-table-lead-color;
-  }
-  tbody tr:nth-child(7) {
-    background-color: $logistic-table-air-color;
-  }
-}
-
-.logistic-table-supply-units {
-  tbody tr:nth-child(1) {
-    background-color: $logistic-table-infantry-color
-  }
-  tbody tr {
-    background-color: $logistic-table-vehicle-color;
-  }
-}
-
-.logistic-table-infantry-supply {
-  tbody tr:nth-child(5) {
-    background-color: $logistic-table-logistic-only-color;
-  }
-  tbody tr:nth-child(7) {
-    background-color: $logistic-table-lead-color;
-  }
-  tbody tr:nth-child(9) {
-    background-color: $logistic-table-medic-color;
-  }
-  tbody tr:nth-child(10) {
-    background-color: $logistic-table-logistic-only-color;
-  }
-  tbody tr:nth-child(11) {
-    background-color: $logistic-table-air-color;
-  }
-  tbody tr:nth-child(12) {
-    background-color: $logistic-table-medic-only-color;
-  }
-  tbody tr:nth-child(12) {
-    background-color: $logistic-table-medic-only-color;
-  }
-  tbody tr:nth-child(13) {
-    background-color: $logistic-table-medic-only-color;
-  }
-  tbody tr:nth-child(14) {
-    background-color: $logistic-table-medic-only-color;
-  }
-  tbody tr:nth-child(15) {
-    background-color: $logistic-table-medic-only-color;
-  }
-  tbody tr:nth-child(16) {
-    background-color: $logistic-table-medic-only-color;
-  }
-  tbody tr {
-    background-color: $logistic-table-infantry-color
-  }
-}
-
-.logistic-table-vehicle-supply {
-  tbody tr {
-    background-color: $logistic-table-vehicle-color;
-  }
-}
-
-.logistic-table-artillery-supply {
-  tbody tr {
-    background-color: $logistic-table-infantry-color;
-  }
-}
-
-.logistic-table-artillery-supply {
-  tbody tr {
-    background-color: $logistic-table-infantry-color;
-  }
-}
-
-.logistic-table-land-vehicle {
-  tbody tr {
-    background-color: $logistic-table-infantry-color;
-  }
-}
-
-.logistic-table-air-vehicle {
-  tbody tr {
-    background-color: $logistic-table-air-color;
-  }
-}
-
-.logistic-table-sea-vehicle {
-  tbody tr {
-    background-color: $logistic-table-grey-color;
-  }
-}
-
-.logistic-table-construction {
-  tbody tr {
-    background-color: $logistic-table-logistic-only-color;
-  }
-}
-
-.logistic-table-air-vehicle-maintenance {
-  tbody tr {
-    background-color: $logistic-table-logistic-only-color;
-  }
-}
-
-.logistic-table-others {
-  tbody tr {
-    background-color: $logistic-table-air-color;
   }
 }
 
