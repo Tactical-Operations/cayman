@@ -26,6 +26,7 @@ $table-purple-td-background-color: #ead1dc !default;
 
 $tacops-table-grey-color: #cccccc !default;
 $tacops-table-red-color: #ea9999 !default;
+$tacops-table-yellow-color:  #ffe599 !default;
 $tacops-table-light-blue-color: #add7ff !default;
 $tacops-table-blue-color: #9fc5e8 !default;
 $tacops-table-lila-blue-color:  #b4a7d6 !default;
@@ -40,7 +41,7 @@ $logistic-table-green-color: $tacops-table-green-color;
 $logistic-table-pink-color: $tacops-table-pink-color;
 $logistic-table-red-color: $tacops-table-red-color;
 $logistic-table-blue-color: $tacops-table-blue-color;
-$logistic-table-yellow-color:  #ffe599 !default;
+$logistic-table-yellow-color:  $tacops-table-yellow-color;
 $logistic-table-orange-color:  $tacops-table-orange-color;
 $logistic-table-lila-blue-color:  $tacops-table-lila-blue-color;
 
