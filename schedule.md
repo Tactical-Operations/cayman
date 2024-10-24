@@ -269,6 +269,18 @@ Einige Zeit später
 
 ## Logistikbestellkatalog
 
+<style>
+.logistic-table-order-catalog { 
+  table tbody tr:nth-child(1) { background-color: var(--logistic-table-infantry-color); }
+  table tbody tr:nth-child(2) { background-color: var(--logistic-table-medic-color);}
+  table tbody tr:nth-child(3) { background-color: var(--logistic-table-medic-only-color);  }
+  table tbody tr:nth-child(4) { background-color: var(--logistic-table-logistic-only-color);  }
+  table tbody tr:nth-child(5) { background-color: var(--logistic-table-vehicle-color);  }
+  table tbody tr:nth-child(6) { background-color: var(--logistic-table-lead-color);  }
+  table tbody tr:nth-child(7) { background-color: var(--logistic-table-air-color);  }
+}
+</style>
+
 <div markdown="1" class="logistic-table logistic-table-2 logistic-table-order-catalog">
 
 | Farbe | Einheitengattung |
@@ -285,6 +297,14 @@ Einige Zeit später
 
 #### Supply Units
 
+<style>
+.logistic-table-supply-units { 
+  table tbody tr { background-color: var(--logistic-table-infantry-color); }
+  table tbody tr:nth-child(2) { background-color: var(--logistic-table-vehicle-color); }
+  table tbody tr:nth-child(3) { background-color: var(--logistic-table-vehicle-color); }
+}
+</style>
+
 <div markdown="1" class="logistic-table logistic-table-3 logistic-table-supply-units">
 
 | Nr | Supply Units | Beschreibung/Inhalt |
@@ -296,6 +316,12 @@ Einige Zeit später
 </div>
 
 #### Infanterieversorgung
+
+<style>
+.logistic-table-infantry-supply {
+  table tbody tr { background-color: var(--logistic-table-infantry-color); }
+}
+</style>
 
 <div markdown="1" class="logistic-table logistic-table-3 logistic-table-infantry-supply">
 
@@ -323,6 +349,12 @@ Einige Zeit später
 
 #### Fahrzeugversorgung
 
+<style>
+.logistic-table-vehicle-supply {
+  table tbody tr { background-color: var(--logistic-table-vehicle-color); }
+}
+</style>
+
 <div markdown="1" class="logistic-table logistic-table-3 logistic-table-vehicle-supply">
 
 | Nr | Fahrzeugversorgung | Beschreibung/Inhalt |
@@ -340,6 +372,12 @@ Einige Zeit später
 
 
 #### Schwere Waffen/Artillerie
+
+<style>
+.logistic-table-artillery-supply {
+  table tbody tr { background-color: var(--logistic-table-lead-color); }
+}
+</style>
 
 <div markdown="1" class="logistic-table logistic-table-3 logistic-table-artillery-supply">
 
