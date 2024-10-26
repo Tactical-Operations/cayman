@@ -366,6 +366,15 @@ a {
   }
 }
 
+.briefing-textblock {
+  p {
+    hyphens: auto;
+    text-align: justify; /* für Edge */
+    -moz-text-align-last: left; /* für Firefox vor 58.0 */
+    text-align-last: left;
+   }
+}
+
 .table-blue {
   table {
     border: 2px solid $table-border-color;
